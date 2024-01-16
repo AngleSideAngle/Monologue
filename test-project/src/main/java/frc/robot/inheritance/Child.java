@@ -4,24 +4,24 @@ import monologue.Annotations.*;
 
 public class Child extends Parent {
     @Log.NT
-    public Boolean childPublicTrue = true;
+    public boolean childPublicTrue = true;
     @Log.NT
-    private Boolean childPrivateTrue = true;
+    private boolean childPrivateTrue = true;
     @Log.NT
-    protected Boolean childProtectedTrue = true;
+    protected boolean childProtectedTrue = true;
 
     @Log.NT
-    public Double childPublicRand() {
+    public double childPublicRand() {
         return Math.random();
     }
 
     @Log.NT
-    private Double childPrivateRand() {
+    private double childPrivateRand() {
         return Math.random();
     }
 
     @Log.NT
-    protected Double childProtectedRand() {
+    protected double childProtectedRand() {
         return Math.random();
     }
 }

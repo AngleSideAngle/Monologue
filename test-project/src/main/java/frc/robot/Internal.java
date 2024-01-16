@@ -10,7 +10,7 @@ import monologue.Logged;
 public class Internal implements Logged {
 
   @Log.NT
-  static Boolean staticBool = true;
+  static boolean staticBool = true;
 
   @Log.NT
   SwerveModuleState state = new SwerveModuleState(1, new Rotation2d(0.5));

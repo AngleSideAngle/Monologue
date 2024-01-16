@@ -5,24 +5,24 @@ import monologue.Logged;
 
 public class Parent extends GrandParent implements Logged {
     @Log.NT
-    public Boolean parentPublicTrue = true;
+    public boolean parentPublicTrue = true;
     @Log.NT
-    private Boolean parentPrivateTrue = true;
+    private boolean parentPrivateTrue = true;
     @Log.NT
-    protected Boolean parentProtectedTrue = true;
+    protected boolean parentProtectedTrue = true;
 
     @Log.NT
-    public Double parentPublicRand() {
+    public double parentPublicRand() {
         return Math.random();
     }
 
     @Log.NT
-    private Double parentPrivateRand() {
+    private double parentPrivateRand() {
         return Math.random();
     }
 
     @Log.NT
-    protected Double parentProtectedRand() {
+    protected double parentProtectedRand() {
         return Math.random();
     }
 }

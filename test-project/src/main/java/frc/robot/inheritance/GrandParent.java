@@ -4,24 +4,24 @@ import monologue.Annotations.*;
 
 public abstract class GrandParent {
     @Log.NT
-    public Boolean grandparentPublicTrue = true;
+    public boolean grandparentPublicTrue = true;
     @Log.NT
-    private Boolean grandparentPrivateTrue = true;
+    private boolean grandparentPrivateTrue = true;
     @Log.NT
-    protected Boolean grandparentProtectedTrue = true;
+    protected boolean grandparentProtectedTrue = true;
 
     @Log.NT
-    public Double grandparentPublicRand() {
+    public double grandparentPublicRand() {
         return Math.random();
     }
 
     @Log.NT
-    private Double grandparentPrivateRand() {
+    private double grandparentPrivateRand() {
         return Math.random();
     }
 
     @Log.NT
-    protected Double grandparentProtectedRand() {
+    protected double grandparentProtectedRand() {
         return Math.random();
     }
 }
